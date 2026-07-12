@@ -83,6 +83,49 @@ AutoGear
 - Product Filtering & Sorting
 
 ---
+---
+
+# 📸 Application Screenshots
+
+## 🏠 Home Page
+
+![Home](screenshots/home.png)
+
+---
+
+## 🛍️ Products Page
+
+![Products](screenshots/products.png)
+
+---
+
+## 📄 Product Details
+
+![Product Details](screenshots/product-details.png)
+
+---
+
+## 🛒 Shopping Cart
+
+![Cart](screenshots/cart.png)
+
+---
+
+## ❤️ Wishlist
+
+![Wishlist](screenshots/wishlist.png)
+
+---
+
+## 🔑 Login
+
+![Login](screenshots/login.png)
+
+---
+
+## 📝 Register
+
+![Register](screenshots/register.png)
 
 ## 👨‍💻 Developed By
 
