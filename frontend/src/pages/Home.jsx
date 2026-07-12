@@ -7,14 +7,26 @@ function Home() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    API.get("products/")
-      .then((response) => {
-        setProducts(response.data);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  }, []);
+  API.get("products/")
+    .then((response) => {
+      console.log("SUCCESS:", response);
+      console.log("DATA:", response.data);
+
+      setProducts(response.data);
+    })
+    .catch((error) => {
+      console.log("ERROR:", error);
+
+      if (error.response) {
+        console.log("Status:", error.response.status);
+        console.log("Response:", error.response.data);
+      }
+
+      if (error.request) {
+        console.log("Request:", error.request);
+      }
+    });
+}, []);
 
   return (
     <>
